@@ -2,6 +2,11 @@
   font: 16px / 1 sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   height: 100%;
 }
@@ -9,4 +14,44 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+}
+
+header {
+  justify-content: space-between;
+  display: flex;
+  border: 1px solid rgb(213, 214, 215);
+}
+
+a {
+  color: black;
+  margin: 0.5rem;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.left {
+  list-style: none;
+  margin-left: 2rem;
+  padding-left: 2rem;
+}
+
+.right {
+  list-style: none;
+  margin-right: 2rem;
+  padding-right: 2rem;
+  margin-top: 1rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  display: flex;
 }
