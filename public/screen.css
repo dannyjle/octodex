@@ -94,8 +94,10 @@ header {
   }
 
   .twitter {
-    margin-left: 8rem;
+    margin-left: 5rem;
     margin-bottom: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
   }
 }
 
@@ -106,11 +108,15 @@ section {
   margin-top: 5rem;
 }
 
-main section article .octocats {
+article a img {
   border: 1px solid rgba(216, 216, 216, 0.562);
   border-radius: 10px;
   margin-top: 2.5rem;
   background-color: white;
+}
+
+article ul li a img {
+  margin-top: 0;
 }
 
 main section article ul {
@@ -120,6 +126,7 @@ main section article ul {
   list-style: none;
   font-size: 13px;
   font-family: sans-serif;
+  margin-bottom: 2rem;
 }
 
 main section article ul li a {
